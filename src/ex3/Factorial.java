@@ -3,7 +3,7 @@ package ex3;
 import java.util.Scanner;
 
 public class Factorial {
-    int n;
+    private int n;
 
     public Factorial() {
         Scanner scanner = new Scanner(System.in);
