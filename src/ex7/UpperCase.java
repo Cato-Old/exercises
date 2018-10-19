@@ -14,4 +14,8 @@ public class UpperCase {
     public void toUpperCase() {
         System.out.println(str.toUpperCase());
     }
+
+    public boolean isClosed() {
+        return str.equals("q!");
+    }
 }
